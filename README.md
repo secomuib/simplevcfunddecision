@@ -10,7 +10,7 @@ To install all dependencies, if necessary:
 npm install
 ```
 ## Execution
-To execute:
+To deploy to Rinkeby test network:
 ```
 npm start
 ```
@@ -19,5 +19,3 @@ To execute test:
 ```
 npm test
 ```
-
-Before you deploy this contract to the Rinkeby Ethereum test network, you need to get a link to this network in [Infura](https://infura.io).
