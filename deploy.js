@@ -15,6 +15,8 @@ async function deploy () {
     var simpleVCFundDecision = await new web3.eth.Contract(JSON.parse(interface))
         .deploy({ data: bytecode, arguments: [accounts[1], accounts[2], "Test Project", accounts[3]] })
         .send({ from: accounts[0], gas: '1000000', value: "1000000000000000000" }); // Value in wei
+    
+    console.log(interface);
     console.log('Contract deployed to', simpleVCFundDecision.options.address);
     // You can view this contract in https://rinkeby.etherscan.io/
 };
