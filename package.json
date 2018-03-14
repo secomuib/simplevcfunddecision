@@ -1,7 +1,7 @@
 {
   "name": "simplevcfunddecision",
   "version": "1.0.0",
-  "description": "SimpleVCFundDecision contract for Ethereum",
+  "description": "SimpleVCFundDecision contract for Ethereum - Blockchain",
   "main": "index.js",
   "directories": {
     "doc": "doc",
