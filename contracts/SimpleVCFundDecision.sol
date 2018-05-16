@@ -8,7 +8,8 @@ contract SimpleVCFundDecision {
     address beneficiary;
     bool goPartyA;
     bool goPartyB;
-    string name;
+    string anothername;
+    string change;
 
     // Requires two partners of the VC fund to agree,
     // in addition to the proponent
